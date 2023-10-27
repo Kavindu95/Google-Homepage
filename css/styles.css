@@ -1,0 +1,171 @@
+#headder{
+    height: 1px;
+    width: 100%;
+    /* text-align: right; */
+    font-family: sans-serif;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 1px 5px;
+}
+#nav{
+    margin: 5px 5px;
+}
+main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#search-body{
+    height: 100px;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+}
+#nav{
+    width: 50px;
+    height: 10px;
+    padding: 2.5px;
+    &:hover{
+        cursor: pointer;
+        color: blue;
+    }
+}
+
+#imgbrows{
+    width: 280px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#search-area img {
+    width: 25px;
+    height: 25px;
+}
+
+#search-bar{
+    position: relative;
+    height: 100px;
+    background-color: aquamarine;
+}
+#search-area {
+    width: 550px;
+    height: 45px;
+    border: 1px solid rgba(189, 182, 182, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px;
+    &:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+}
+#search-area img:hover{
+    cursor: pointer;
+}
+#search-text {
+    height: 40px;
+    width: 420px;
+    border: none;
+    outline: none;
+}
+.buttons {
+    width: 130px;
+    height: 35px;
+    background-color: rgba(248, 249, 250, 255);
+    border: none;
+    margin: 10px 1px;
+    color: rgb(82, 79, 79);
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.buttons:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#language{
+    color: black;
+    font-size: 0.9rem;
+   
+    
+}
+#language span:hover{
+    
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+    
+}
+footer {
+    position: flex;
+    flex-direction: row;
+    height: 90px;
+    margin-top: 250px;
+    font-size: 0.9rem;
+    color: rgba(117, 119, 121, 255);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#srilanka {
+    padding-left: 30px;
+    height: 45px;
+    display: flex;
+}
+
+#srilanka span {
+    margin-top: 15px;
+}
+footer{
+    background-color: #f2f2f2;
+    font-weight: 100;
+    
+    
+}
+#bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(221, 211, 211);
+
+}
+
+#bottom div:first-child {
+    display: flex;
+}
+
+#bottom div:last-child {
+    display: flex;
+}
+
+#bottom #right {
+    align-items: center;
+    gap: 30px;
+}
+
+#bottom #left {
+    align-items: center;
+    gap: 30px;
+}
+#bottom #left div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#bottom #right div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
